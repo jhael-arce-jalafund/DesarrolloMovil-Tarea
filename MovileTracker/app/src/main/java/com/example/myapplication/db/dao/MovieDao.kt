@@ -1,11 +1,11 @@
-package com.example.practicabooksoffline.db.dao
+package com.example.myapplication.db.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
-import com.example.practicabooksoffline.db.models.Movie
+import com.example.myapplication.db.models.Movie
 import kotlinx.coroutines.flow.Flow
 
 

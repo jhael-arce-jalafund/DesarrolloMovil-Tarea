@@ -1,11 +1,11 @@
-package com.example.practicabooksoffline.db
+package com.example.myapplication.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.practicabooksoffline.db.dao.MovieDao
-import com.example.practicabooksoffline.db.models.Movie
+import com.example.myapplication.db.dao.MovieDao
+import com.example.myapplication.db.models.Movie
 
 @Database(
     entities = [Movie::class],

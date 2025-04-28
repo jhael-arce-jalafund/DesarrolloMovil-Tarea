@@ -1,7 +1,7 @@
-package com.example.practicabooksoffline.api
+package com.example.myapplication.api
 
 
-import com.example.practicabooksoffline.api.dto.MovieDto
+import com.example.myapplication.api.dto.MovieDto
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query

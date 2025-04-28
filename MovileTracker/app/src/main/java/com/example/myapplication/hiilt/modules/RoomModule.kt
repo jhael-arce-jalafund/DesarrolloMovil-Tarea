@@ -1,7 +1,7 @@
-package com.example.practicabooksoffline.hiilt.modules
+package com.example.myapplication.hiilt.modules
 
 import android.content.Context
-import com.example.practicabooksoffline.db.AppDatabase
+import com.example.myapplication.db.AppDatabase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

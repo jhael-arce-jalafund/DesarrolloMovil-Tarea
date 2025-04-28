@@ -1,11 +1,11 @@
-package com.example.practicabooksoffline.ui.activities
+package com.example.myapplication.ui.activities
 
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
-import com.example.practicabooksoffline.R
+import com.example.myapplication.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import dagger.hilt.android.AndroidEntryPoint
 

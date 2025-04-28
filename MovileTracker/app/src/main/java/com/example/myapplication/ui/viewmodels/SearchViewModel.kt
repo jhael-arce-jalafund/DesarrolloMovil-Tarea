@@ -1,13 +1,13 @@
-package com.example.practicabooksoffline.ui.viewmodels
+package com.example.myapplication.ui.viewmodels
 
 import android.widget.SearchView
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.practicabooksoffline.api.MovieService
-import com.example.practicabooksoffline.db.models.Movie
-import com.example.practicabooksoffline.repositories.MovieRepository
+import com.example.myapplication.api.MovieService
+import com.example.myapplication.db.models.Movie
+import com.example.myapplication.repositories.MovieRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

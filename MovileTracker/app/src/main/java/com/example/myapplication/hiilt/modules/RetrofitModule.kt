@@ -1,6 +1,6 @@
-package com.example.practicabooksoffline.hiilt.modules
+package com.example.myapplication.hiilt.modules
 
-import com.example.practicabooksoffline.api.MovieService
+import com.example.myapplication.api.MovieService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

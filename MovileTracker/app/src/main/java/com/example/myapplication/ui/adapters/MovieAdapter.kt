@@ -1,11 +1,11 @@
-package com.example.practicabooksoffline.ui.adapters
+package com.example.myapplication.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.practicabooksoffline.databinding.ItemMovieBinding
-import com.example.practicabooksoffline.db.models.Movie
+import com.example.myapplication.databinding.ItemMovieBinding
+import com.example.myapplication.db.models.Movie
 
 class MovieAdapter(
     private val onMovieClick: (Movie) -> Unit

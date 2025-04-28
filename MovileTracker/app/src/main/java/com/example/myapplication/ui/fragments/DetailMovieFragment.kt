@@ -1,4 +1,4 @@
-package com.example.practicabooksoffline.ui.fragments
+package com.example.myapplication.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,10 +9,10 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
-import com.example.practicabooksoffline.R
-import com.example.practicabooksoffline.databinding.FragmentDetailMovieBinding
-import com.example.practicabooksoffline.db.models.Movie
-import com.example.practicabooksoffline.ui.viewmodels.DetailMovieViewModel
+import com.example.myapplication.R
+import com.example.myapplication.databinding.FragmentDetailMovieBinding
+import com.example.myapplication.db.models.Movie
+import com.example.myapplication.ui.viewmodels.DetailMovieViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

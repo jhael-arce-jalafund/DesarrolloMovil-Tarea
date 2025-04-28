@@ -14,7 +14,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.myapplication"
-        minSdk = 29
+        minSdk = 31
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -50,10 +50,10 @@ kapt {
 }
 dependencies {
 
-    implementation("com.squareup.okhttp3:okhttp:5.0.0-alpha.14")
+    implementation(libs.okhttp)
     //hilt dependency injection
-    implementation("com.google.dagger:hilt-android:2.51.1")
-    kapt("com.google.dagger:hilt-android-compiler:2.51.1")
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.android.compiler)
 
     //Room database
     implementation(libs.androidx.room.runtime)

@@ -1,4 +1,4 @@
-package com.example.practicabooksoffline.ui.viewmodels
+package com.example.myapplication.ui.viewmodels
 
 import android.graphics.Rect
 import android.view.View

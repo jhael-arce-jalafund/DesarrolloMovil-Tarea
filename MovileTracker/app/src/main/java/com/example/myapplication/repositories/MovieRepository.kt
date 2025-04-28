@@ -1,8 +1,8 @@
-package com.example.practicabooksoffline.repositories
+package com.example.myapplication.repositories
 
-import com.example.practicabooksoffline.api.MovieService
-import com.example.practicabooksoffline.db.dao.MovieDao
-import com.example.practicabooksoffline.db.models.Movie
+import com.example.myapplication.api.MovieService
+import com.example.myapplication.db.dao.MovieDao
+import com.example.myapplication.db.models.Movie
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

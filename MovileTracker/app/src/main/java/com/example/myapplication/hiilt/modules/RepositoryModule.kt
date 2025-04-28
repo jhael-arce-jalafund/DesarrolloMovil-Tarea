@@ -1,8 +1,8 @@
-package com.example.practicabooksoffline.hiilt.modules
+package com.example.myapplication.hiilt.modules
 
-import com.example.practicabooksoffline.api.MovieService
-import com.example.practicabooksoffline.db.dao.MovieDao
-import com.example.practicabooksoffline.repositories.MovieRepository
+import com.example.myapplication.api.MovieService
+import com.example.myapplication.db.dao.MovieDao
+import com.example.myapplication.repositories.MovieRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

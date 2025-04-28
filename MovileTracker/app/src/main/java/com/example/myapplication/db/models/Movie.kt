@@ -1,4 +1,4 @@
-package com.example.practicabooksoffline.db.models
+package com.example.myapplication.db.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -7,11 +7,7 @@ import androidx.room.PrimaryKey
 data class Movie(
     @PrimaryKey val id: Long,
     val title: String,
-    val year: Int?,
     val imageUrl: String,
-    val genre: String?,
-    val rating: Double,
-    val plot: String?,
     var isFavorite: Boolean,
     var isWatched: Boolean
 )
