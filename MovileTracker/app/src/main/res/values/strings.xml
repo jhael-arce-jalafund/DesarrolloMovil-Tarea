@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Movie Tracker</string>
+    <string name="search_hint">Search movies...</string>
+    <string name="no_favorites">No favorite movies yet</string>
+    <string name="no_watched">No watched movies yet</string>
+    <string name="todo">TODO</string>
+    <string name="poster_desc">Póster de la película: %s</string>
+    <string name="favorite_desc">Marcar como favorito</string>
+    <string name="watched_desc">Marcar como vista</string>
+    <string name="add_to_favorites">Añadir Favritos\n</string>
+    <string name="poster">Poster</string>
+    <string name="rating_format">Rating: %.1f/10</string>
+    <string name="movie_info_format">%d • %s</string>
+    <string name="about">About</string>
+    <string name="watched">Watched</string>
+    <string name="favorite">Favorite</string>
+    <string name="movie_poster">Movie poster</string>
+    <string name="back">Back</string>
+    <string name="no_results_found">No se encontraron resultados</string>
+    <dimen name="grid_spacing">8dp</dimen>
+</resources>
