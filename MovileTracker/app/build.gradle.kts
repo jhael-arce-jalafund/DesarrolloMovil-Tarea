@@ -50,10 +50,11 @@ kapt {
 }
 dependencies {
 
-    implementation(libs.okhttp)
+    implementation("com.squareup.okhttp3:okhttp:5.0.0-alpha.14")
     //hilt dependency injection
-    implementation(libs.hilt.android)
-    kapt(libs.hilt.android.compiler)
+    implementation("com.google.dagger:hilt-android:2.51.1")
+    kapt("com.google.dagger:hilt-android-compiler:2.51.1")
+
 
     //Room database
     implementation(libs.androidx.room.runtime)
